@@ -1,5 +1,8 @@
 ## Fragen
 
+#### 1. Implementieren Sie Selection Sort und Quicksort in Python.
+- [*Selectionsort*](https://github.com/JohanaHe/Uebungsblatt8/blob/51ff4d79d531e602e2a9e3910b9bb90161204e8e/Selectionsort_Python/SelectionSort.py)
+- [*Quicksort*](https://github.com/JohanaHe/Uebungsblatt8/blob/51ff4d79d531e602e2a9e3910b9bb90161204e8e/Quicksort_Python/QuickSort.py)
 #### 2. Erläutern Sie kurz die Rolle des Pivot-Elements. Wie wird das Pivot-Element in Ihrer Implementierung gewählt?
 Die Laufzeit ist stark von der Wahl des Pivot-Elements abhängig. Das liegt daran, dass die zu sortierende Sequenz durch das Pivot-Element in zwei kleinere zu sortierende Sequenzen eingeteilt wird. Nur wenn diese Aufteilung möglichst gleich erfolgt, kann eine schnellere Laufzeit garantiert werden. 
 <br> In unserer Implementierung wird immer das rechteste Element als Privot-Element ausgewählt. Das ist nicht immer die optimale Wahl, jedoch aber einfacher zu programmieren. 
