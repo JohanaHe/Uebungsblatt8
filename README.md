@@ -5,8 +5,8 @@ Die Laufzeit ist stark von der Wahl des Pivot-Elements abhängig. Das liegt dara
 <br> In unserer Implementierung wird immer das rechteste Element als Privot-Element ausgewählt. Das ist nicht immer die optimale Wahl, jedoch aber einfacher zu programmieren. 
 
 #### 3. Gibt es für Ihre Implementierungen von Selection Sort und Quicksort worst-case Eingaben? Falls ja, welche?
-- *Selectionsort:* 
-- *Quicksort:* Dadurch, dass wir immer das rechteste Element der zu sortierenden Sequenz als Pivot-Element wählen, gibt es eine worst-case Eingabe. Diese wäre ein Array, welches bereits absteigend sortiert ist, da unsere Implementierung aufsteigend sortiert. 
+- *Selectionsort:* Eine worst-case Eingabe für diesen Sortieralgorithmus wäre ein Array, das bereits in absteigender Reihenfolge sortiert ist, da wir in aufsteigende Reihenfolge sortieren. Somit müssen am meisten Vertauschungen und Vergleiche erfolgen. 
+- *Quicksort:* Dadurch, dass wir immer das rechteste Element der zu sortierenden Sequenz als Pivot-Element wählen, gibt es eine worst-case Eingabe. Diese wäre ein Array, welches beispielsweise bereits aufsteigend oder absteigend sortiert ist. Das heißt, dass wenn das Pivot-Element immer entweder dem kleinsten oder dem größten Element der zu sortierenden Sequenz entspricht, die worst-case Laufzeit herauskommt. 
 
 #### 4. Testen Sie die Korrektheit Ihrer Implementierungen anhand von verschiedenen Testfällen. Erläutern Sie kurz, wie Sie diese Testfälle gewählt haben.
 - *Selectionsort:* siehe [Tests für Selectionsort](https://github.com/JohanaHe/Uebungsblatt8/blob/0ac1a5e7019de1b3d1e46408e6b48d92019cd48f/Selectionsort_Python/SelectionSortTest.py)
