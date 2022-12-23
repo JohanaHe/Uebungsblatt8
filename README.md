@@ -13,6 +13,6 @@ Die Laufzeit ist stark von der Wahl des Pivot-Elements abhängig. Das liegt dara
 
 #### 4. Testen Sie die Korrektheit Ihrer Implementierungen anhand von verschiedenen Testfällen. Erläutern Sie kurz, wie Sie diese Testfälle gewählt haben.
 - *Selectionsort:* siehe [Tests für Selectionsort](https://github.com/JohanaHe/Uebungsblatt8/blob/0ac1a5e7019de1b3d1e46408e6b48d92019cd48f/Selectionsort_Python/SelectionSortTest.py)
-<br> Die Testfälle decken zum einen die Randfälle ab, dass das Eingabe-Array bereits sortiert ist oder leer ist. Zum anderen gibt es einen weiteren Test, um die Sortierfunktion anhand einer unsortierten Sequenz zu testen. 
+<br> Die Testfälle decken zum einen die Randfälle ab, dass das Eingabe-Array bereits sortiert ist/nur 1 Element besitzt oder leer ist. Zum anderen gibt es einen weiteren Test, um die Sortierfunktion anhand einer unsortierten Sequenz zu testen. 
 - *Quicksort:* siehe [Tests für Quicksort](https://github.com/JohanaHe/Uebungsblatt8/blob/0ac1a5e7019de1b3d1e46408e6b48d92019cd48f/Quicksort_Python/QuickSortTest.py)
 <br> Die Testfälle entsprechen den Testfällen für Selectionsort. 
